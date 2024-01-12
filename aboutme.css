@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: ;
+}
+
+body {
+    height: 900px;
+    font-size: 20px;
+    color: #000000;
+    font-family: sans-serif;
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*vBhfzL2Fsbu8Og5qUF7O-A.jpeg');
+    background-size: cover;
+    text-decoration: none;
+}
+
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+}
+
+li {
+    color: #000000;
+    text-decoration: none;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.menu {
+    margin: 15px;
+}
+
+.menu >li {
+    display: inline;
+    margin-right: 125px;
+}
+
+.menu li:hover {
+    text-decoration: underline;
+}
+
+.menu >li:last-of-type {
+    margin-right: 50px;
+}
+
+.intro {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 500px;
+    margin-left: 50px;
+
+}
+
+.logo {
+    padding: 50px;
+}
+
+.socials {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
